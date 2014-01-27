@@ -1,0 +1,1029 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 2,
+  "maxzoom": 6,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "palette.mss",
+    "labels.mss",
+    "pop_places.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "raster",
+      "extent": [
+        -180,
+        -85.051,
+        179.9965466070548,
+        85.051
+      ],
+      "id": "ne2lrlcmercator",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/10m/10m_Raster/NE2_LR_LC/NE2_LR_LC_Mercator.tif"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "ne2lrlcmercator"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919964,
+        -85.051,
+        180,
+        83.63381093402961
+      ],
+      "id": "countriescomp",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/10m/10m-cultural/10m-admin-0-countries/10m-admin-0-countries.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countriescomp"
+    },
+    {
+      "geometry": "raster",
+      "extent": [
+        -179.9999999999995,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "cleantopo2webmerc",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/CleanTopo/CleanTOPO2_web_merc.tif"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "cleantopo2webmerc"
+    },
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape",
+        "id": "countries",
+        "project": "Student_Atlas_v2",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "extent": [
+        -179.99978348919964,
+        -85.051,
+        180,
+        83.63381093402977
+      ]
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.95363440005697,
+        -16.536406345284952,
+        109.92980716353523,
+        66.96929759385118
+      ],
+      "id": "ne110mlakes",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/110m_physical/ne_110m_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne110mlakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99998938710382,
+        -85.051,
+        179.99999,
+        85.051
+      ],
+      "id": "10mocean",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/physical/10m-ocean.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10mocean"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.99999999999991,
+        -85.051,
+        180,
+        83.63410065300008
+      ],
+      "id": "ne10mcoastline",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_coastline.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mcoastline"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        113.618,
+        -42.783,
+        153.366,
+        -12.078
+      ],
+      "id": "aus10dgdl",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Australia/Geoscience_Australia/GA_10M_Topo/drainage/aus10dgd_l.shp",
+        "id": "aus10dgdl",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aus10dgdl"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.898486328125,
+        -50.620019531249994,
+        176.08271484375,
+        81.94033203125
+      ],
+      "id": "ne50mlakes",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/50m_physical/ne_50m_lakes.shp",
+        "id": "ne50mlakes",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne50mlakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        13.02941694504864,
+        12.471177069544638,
+        61.91687218612964,
+        46.83292979591908
+      ],
+      "id": "ne50mlakeshistoric",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/50m_physical/ne_50m_lakes_historic.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne50mlakeshistoric"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -89.1931396713585,
+        -23.83757903399993,
+        149.35933537000005,
+        48.12060394300005
+      ],
+      "id": "ne10madmin0boundaryb",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_0_boundary_lines_disputed_areas.shp",
+        "id": "ne10madmin0boundaryb",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10madmin0boundaryb"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -141.00554863899993,
+        -55.12092376699991,
+        140.97762699400005,
+        70.07531036400007
+      ],
+      "id": "ne10madmin0boundaryl",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_0_boundary_lines_land.shp",
+        "id": "ne10madmin0boundaryl",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10madmin0boundaryl"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -79.98888545781983,
+        -59.47280283618957,
+        148.8564742436166,
+        80.83253489223631
+      ],
+      "id": "ne10madmin0breakaway",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_0_breakaway_disputed_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10madmin0breakaway"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -169.42718440910627,
+        -65.32127371706483,
+        81.96116645867104,
+        80.8631930892582
+      ],
+      "id": "ne50moceanslabelscm",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/50m_physical/CM_Edits/ne_50m_oceans_labels_cm.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "ne50moceanslabelscm"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -29.000586061407816,
+        180,
+        21.99976608610794
+      ],
+      "id": "ne10madmin0pacificgr",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_0_pacific_groupings.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "ne10madmin0pacificgr"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -164.90347246002037,
+        -52.157728773964294,
+        177.21119225352123,
+        75.79348379113986
+      ],
+      "id": "ne10mriverslakecente",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_rivers_lake_centerlines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mriverslakecente"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -139.06020662199992,
+        -49.25087001999992,
+        178.448622268,
+        81.12853131600008
+      ],
+      "id": "ne10madmin1statespro",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_1_states_provinces_lines.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10madmin1statespro"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -177.02829073905104,
+        -26.830065867057236,
+        178.03068595295332,
+        17.785703692358766
+      ],
+      "id": "jacpacificgroupingsl",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/JAC_Pacific_Groupings_Labels.shp",
+        "id": "jacpacificgroupingsl",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "jacpacificgroupingsl"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999991,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "ne10mbathymetryl0",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_L_0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryl0"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99998938710382,
+        -78.60857703547947,
+        180,
+        85.051
+      ],
+      "id": "ne10mbathymetryk200",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_K_200.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryk200"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999994,
+        -78.22869422297961,
+        179.99952233164623,
+        85.051
+      ],
+      "id": "ne10mbathymetryj1000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_J_1000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryj1000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999997,
+        -76.40313269954208,
+        180,
+        85.051
+      ],
+      "id": "ne10mbathymetryi2000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_I_2000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryi2000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99998938710382,
+        -76.11980750422957,
+        180,
+        85.051
+      ],
+      "id": "ne10mbathymetryg4000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_G_4000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryg4000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99998938710382,
+        -60.167903207354506,
+        180,
+        55.058783270306634
+      ],
+      "id": "ne10mbathymetrye6000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_E_6000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetrye6000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.15556990773368,
+        -34.08001067500588,
+        157.3225203785213,
+        48.85108063358783
+      ],
+      "id": "ne10mbathymetryc8000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_C_8000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetryc8000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -174.96190535695243,
+        -23.648492120318437,
+        144.76783287852123,
+        12.113165594525343
+      ],
+      "id": "ne10mbathymetrya1000",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_bathymetry_all/ne_10m_bathymetry_A_10000.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mbathymetrya1000"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990004,
+        -85.051,
+        180,
+        83.63410065282284
+      ],
+      "id": "ne10madmin1area",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_1_states_provinces_shp.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10madmin1area"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        113.543,
+        -43.431,
+        153.566,
+        -10.697
+      ],
+      "id": "aus10vgdl",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Australia/Geoscience_Australia/GA_10M_Topo/road/aus10vgd_l.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aus10vgdl"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        113.4,
+        -31.993,
+        155.292,
+        -9.249
+      ],
+      "id": "aus10ogdr",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Australia/Geoscience_Australia/GA_10M_Topo/offshore/aus10ogd_r.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aus10ogdr"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99998938710374,
+        -85.051,
+        180,
+        -64.52483680110458
+      ],
+      "id": "ne10mantarcticiceshe",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_antarctic_ice_shelves_polys.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne10mantarcticiceshe"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        113.496,
+        -43.038,
+        152.637,
+        -16.07
+      ],
+      "id": "aus10wgdr",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Australia/Geoscience_Australia/GA_10M_Topo/waterbodies/aus10wgd_r.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aus10wgdr"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999991,
+        -85.051,
+        179.99993992613346,
+        85.051
+      ],
+      "id": "jacmarinepolycombine",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_marine_poly_combined.shp",
+        "id": "jacmarinepolycombine",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "jacmarinepolycombine"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -151.93299341537121,
+        -76.56758025890404,
+        136.9912062033051,
+        57.819783300143115
+      ],
+      "id": "jacmarinepointcombin",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_marine_point_combined.shp",
+        "encoding": "“Windows-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“Windows-1252"
+      },
+      "name": "jacmarinepointcombin"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -152.65276360376333,
+        -72.99698853311219,
+        153.50214025261553,
+        82.33004490972064
+      ],
+      "id": "jacmarinelinecombine",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_marine_line_combined.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "jacmarinelinecombine"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "ne10mgeographiclines",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/ne_10m_geographic_lines.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "ne10mgeographiclines"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        109.74900208353469,
+        -40.223612756090034,
+        152.7485024785293,
+        -10.490383823220865
+      ],
+      "id": "aus10lgdp",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Australia/CM_Data/aus10lgd_p_CM.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "aus10lgdp"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -175.22056447761656,
+        -41.29997393927641,
+        179.21664709402887,
+        64.15002361973922
+      ],
+      "id": "jac10mpopplaceadmin0cap",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_10m_populated_places_no_aus_featurecla__Admin-0 capital.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "jac10mpopplaceadmin0cap"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "ne110mocean",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/110m_physical/ne_110m_ocean.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne110mocean"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -175.22056447761656,
+        -41.29997393927641,
+        179.21664709402887,
+        64.15002361973922
+      ],
+      "id": "jac10mpopulatedplace",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_10m_populated_places_no_aus_featurecla__Admin-0 capital.shp",
+        "id": "jac10mpopulatedplace",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "“WINDOWS-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“WINDOWS-1252"
+      },
+      "name": "jac10mpopulatedplace"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -177.05899602461503,
+        -80.50821936862663,
+        178.52035315992666,
+        74.73598393602568
+      ],
+      "id": "jaccountrylabelspoin",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_country_labels_point.shp",
+        "id": "jaccountrylabelspoin",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "jaccountrylabelspoin"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -95.28449197860954,
+        -75.95090492668827,
+        133.69090909090914,
+        53.985284414149696
+      ],
+      "id": "cmcontinentslabels",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_physical/CM_Edits/CM_continents_labels.shp",
+        "id": "cmcontinentslabels",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "cmcontinentslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999991,
+        -85.051,
+        180,
+        84.13415226656497
+      ],
+      "id": "jacgeoareascombined",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_geo_areas_combined.shp",
+        "id": "jacgeoareascombined",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "“Windows-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“Windows-1252"
+      },
+      "name": "jacgeoareascombined"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.84124996275654,
+        -82.99882433643324,
+        178.9869162509742,
+        83.21290595668702
+      ],
+      "id": "jacgeolinescombined",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_geo_lines_combined.shp",
+        "encoding": "“Windows-1252",
+        "id": "jacgeolinescombined",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“Windows-1252"
+      },
+      "name": "jacgeolinescombined"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -177.52331338380338,
+        -76.10646101009868,
+        179.6292957962102,
+        61.71424417473625
+      ],
+      "id": "jacgeopointscombined",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_geo_points_combined.shp",
+        "encoding": "“Windows-1252",
+        "id": "jacgeopointscombined",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“Windows-1252"
+      },
+      "name": "jacgeopointscombined"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999990004,
+        -85.051,
+        180,
+        83.63410065282284
+      ],
+      "id": "ne10madmin1statespro2",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/10m_cultural/ne_10m_admin_1_states_provinces_lakes_shp.shp",
+        "id": "ne10madmin1statespro2",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "“WINDOWS-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "“WINDOWS-1252"
+      },
+      "name": "ne10madmin1statespro2"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -179.7459999404105,
+        -85.051,
+        179.75933440093647,
+        70.02412649536066
+      ],
+      "id": "jacranges",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_ranges.shp",
+        "id": "jacranges",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "jacranges"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -145.4088009668016,
+        -84.82110145347288,
+        173.3010294189962,
+        64.9115691435911
+      ],
+      "id": "jacrangespoly",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Jacaranda/jac_ranges_poly.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "jacrangespoly"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.898486328125,
+        -50.620019531249994,
+        176.08271484375,
+        81.94033203125
+      ],
+      "id": "50mlakeslabels",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/50m_physical/ne_50m_lakes.shp",
+        "id": "50mlakeslabels",
+        "project": "Student_Atlas_v2",
+        "srs": "",
+        "encoding": "‘LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "‘LATIN1"
+      },
+      "name": "50mlakeslabels"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -164.90347246002037,
+        -52.157728773964294,
+        177.21119225352123,
+        75.79348379113986
+      ],
+      "id": "10mriverlabels",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/Natural_Earth_3_0_0/10m_Physical/ne_10m_rivers_lake_centerlines/ne_10m_rivers_lake_centerlines.shp",
+        "id": "10mriverlabels",
+        "project": "Student_Atlas_v2",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10mriverlabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        179.9998970889459,
+        85.051
+      ],
+      "id": "ne50mgeographymarine",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/macmini/Data/Global/Natural_Earth_Data/natural_earth_vector_2_0_0/50m_physical/CM_Edits/50m_geography_marine_CM2.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ne50mgeographymarine"
+    }
+  ],
+  "scale": 1,
+  "metatile": 8,
+  "name": "Student Atlas v2",
+  "description": "Multi-published student atlas",
+  "attribution": "Craig Molyneux",
+  "version": "1.0.1"
+}
